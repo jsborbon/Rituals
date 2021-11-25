@@ -58,13 +58,14 @@ ul{
 }
 .footer2 img{
     display: inline-block;
+    padding-right: 2rem;
 }
 .footer2 div{
-    margin-left: 2%;
     display: inline-block;
 }
 .footer2 li{
     display: inline-block;
+    padding-right: 2rem;
 }
 .contactenos{
     float: left;
