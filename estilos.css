@@ -1,6 +1,96 @@
+*{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #5b5959;
+}
+a:hover{
+    text-decoration: underline;
+}
 
-footer{
+/*footer*/
+.footer-background{
     background:rgba(26,25,25,.96);
+}
+
+.footer1{
     color:#a4a4a4;
-    font-size: 14px;
+    overflow: hidden;
+    font-family: ScalaSansOT,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+.footer1 h1{
+    color: white;
+}
+.columna{
+    float: left;
+    margin: auto;
+    padding-left: 5%;
+}
+ul{
+    list-style: none;
+}
+.contactenos{
+    clear: both;
+    font-family: Arial;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.contactenos a{
+    color:#a4a4a4;
+}
+.iconos span{
+    font-size: 200%;
+}
+.iconos li{
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 5%;
+}
+.footer2{
+    margin-top: 3%;
+    margin-left: 6%;
+    color: #767676;
+}
+.Pay_Methods{
+    padding-left: 15%;
+    clear: both;
+}
+.footer2 img{
+    display: inline-block;
+}
+.footer2 div{
+    margin-left: 2%;
+    display: inline-block;
+}
+.footer2 li{
+    display: inline-block;
+}
+.contactenos{
+    float: left;
+}
+.logoRituals{
+    float: right;
+}
+#LogoRituals {
+    width: 40%;
+}
+
+#LogoVisa {
+    width: 18%;
+}
+
+#LogoMastercard {
+    width: 12%;
+}
+
+#LogoAmerican {
+    width: 7%;
+}
+#LogoPayPal{
+    width: 7%;
+}
+
+#LogoGiftCard{
+    width: 11%;
 }
