@@ -9,7 +9,7 @@
         <ul>
             <li><h2>Cambios y devoluciones</h2></li>
             <li><h2>FAQ</h2></li>
-            <li><h2>Contacto</h2></li>
+            <li><h2><a href="Contacto.php">Contacto</a></h2></li>
             <li><h2>Política de cookies</h2></li>
             <li><h2>Configuración de cookies</h2></li>
         </ul>
@@ -17,7 +17,7 @@
     <div class="columna">
         <h1>Donde encontrarnos</h1>
         <ul>
-            <li><h2>Nuestras tiendas</h2></li>
+            <li><h2><a href="Contacto.php">Nuestras tiendas</a></h2></li>
             <li><h2>Grandes almacenes</h2></li>
             <li><h2>Hoteles</h2></li>
             <li><h2>Aeropuertos</h2></li>
@@ -72,18 +72,18 @@
         </ul>
     </div>
     <div class="logoRituals">
-        <img id="LogoRituals" src="./imgs/rituals-logo.png" alt="Logo Rituals" title="Logo Rituals" width="18%">
+        <img id="LogoRituals" src="./imgs/rituals-logo.png" alt="Logo Rituals" title="Logo Rituals">
     </div>
     </div>
 </footer>
 
 <footer class="footer2">
     <div class="Pay_Methods">
-        <img id="LogoVisa" src="./imgs/visa-logo.png" alt="Logo Visa" title="Logo Visa" width="18%">
-        <img id="LogoMastercard" src="./imgs/mastercard-logo.png" alt="Logo MasterCard" title="Logo MasterCard" width="12%">
-        <img id="LogoAmerican" src="./imgs/americanExpress-logo.png" alt="Logo AmericanExpress" title="Logo AmericanExpress" width="7%">
-        <img id="LogoPayPal" src="./imgs/paypal-logo.png" alt="Logo Paypal" title="Logo Paypal" width="7%">
-        <img id="LogoGiftCard" src="./imgs/giftcard-logo.png" alt="Logo GiftCard" title="Logo GiftCard" width="11%">
+        <img id="LogoVisa" src="./imgs/visa-logo.png" alt="Logo Visa" title="Logo Visa">
+        <img id="LogoMastercard" src="./imgs/mastercard-logo.png" alt="Logo MasterCard" title="Logo MasterCard">
+        <img id="LogoAmerican" src="./imgs/americanExpress-logo.png" alt="Logo AmericanExpress" title="Logo AmericanExpress">
+        <img id="LogoPayPal" src="./imgs/paypal-logo.png" alt="Logo Paypal" title="Logo Paypal">
+        <img id="LogoGiftCard" src="./imgs/giftcard-logo.png" alt="Logo GiftCard" title="Logo GiftCard">
     </div>
     <br>
     <div class="copyright">
