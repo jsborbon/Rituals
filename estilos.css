@@ -1,0 +1,187 @@
+*{
+    font-size: 1rem;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    background-color: #f6f4f2;
+}
+
+a{
+    text-decoration: none;
+    color: #5b5959;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Header*/
+header{
+    height: 15rem;
+}
+header img{
+    width: 100%;
+    height: 15rem;
+}
+
+/*Nav*/
+nav{
+    padding-left: 12%;
+    padding-bottom: 0.4rem;
+    background:rgba(26,25,25,.96);
+}
+
+nav div{
+    display: inline-block;
+    color:#a4a4a4;
+    font-family: ScalaSansOT,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    margin-right: 2rem;
+}
+
+nav a{
+    color:#a4a4a4;
+}
+
+nav h1{
+    font-size: 1.05rem;
+}
+
+nav div:hover{
+    border-bottom: 0.05rem solid #a4a4a4;
+    
+}
+
+nav a:hover{
+     text-decoration: none;
+     color: #c5c5c5;
+}
+
+/*Contacto*/    
+iframe{
+    border: 0;
+    width:400;
+    height:300;
+}
+
+.contactUs{
+    float: left;
+    
+}
+.mapa{
+    float: right;
+}
+
+/*footer*/
+.footer-background{
+    clear: both;
+    background:rgba(26,25,25,.96);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer1{
+    color:#a4a4a4;
+    overflow: hidden;
+    font-family: ScalaSansOT,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+
+.footer1 a{
+    color:#a4a4a4;
+}
+
+.footer1 h1{
+    color: white;
+}
+
+.columna{
+    float: left;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.contactenos{
+    clear: both;
+    font-family: Arial;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+
+.contactenos a{
+    color:#a4a4a4;
+}
+
+.iconos span{
+    font-size: 200%;
+}
+
+.iconos li{
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 5%;
+}
+
+.footer2{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: #767676;
+}
+
+.Pay_Methods{
+    padding-left: 15%;
+    clear: both;
+}
+
+.footer2 img{
+    display: inline-block;
+}
+
+.footer2 div{
+    display: inline-block;
+}
+
+.footer2 li{
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.contactenos{
+    float: left;
+}
+
+.logoRituals{
+    float: right;
+    text-align: center;
+}
+
+#letters{
+    width: 15rem;
+}
+
+#LogoRituals {
+    width: 40%;
+}
+
+#LogoVisa {
+    width: 18%;
+}
+
+#LogoMastercard {
+    width: 12%;
+}
+
+#LogoAmerican {
+    width: 7%;
+}
+
+#LogoPayPal{
+    width: 7%;
+}
+
+#LogoGiftCard{
+    width: 11%;
+}
