@@ -10,10 +10,14 @@
     <link href="estilos.css" rel="stylesheet">
 </head>
 <body>
+  <?php
+        include "includes/header.php";
+        include "includes/nav.php";
+    ?>
 
 
   <?php
-        include "footer.php";
+        include "includes/footer.php";
     ?>
 </body>
 </html>
