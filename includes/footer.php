@@ -8,7 +8,6 @@
         <h1>Atención al cliente</h1>
         <ul>
             <li><h2>Cambios y devoluciones</h2></li>
-            <li><h2>FAQ</h2></li>
             <li><h2><a href="Contacto.php">Contacto</a></h2></li>
             <li><h2>Política de cookies</h2></li>
             <li><h2>Configuración de cookies</h2></li>

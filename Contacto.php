@@ -20,6 +20,7 @@
     <h1>Contactenos</h1>
     <form>
     <ul>
+    <div class="inputsText">
     <li><label>Nombre: </label>
     <input type="text" title="name" id="name"></li>
     
@@ -31,29 +32,39 @@
         
     <li><label>Dirección: </label>
         <input type="text" title="address" id="address"></li>
-        
+    </div>
     <li><label>Tipo de comunicación</label>
     <select name="communicationType">
         <option value="Consult">Consulta</option>
         <option value="Suggestions">Sugerencia</option>
         <option value="Complain">Queja</option>
     </select></li>
-    <li><label>Sexo:</label>
-        Hombre<input type="radio" name="sexo" value="el">
-        Mujer<input type="radio" name="sexo" value="ella">
-        No Binario<input type="radio" name="sexo" value="elle">
+    <li>
+        <div class="sexSelector">
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="el">Hombre
+        <input type="radio" name="sexo" value="ella">Mujer
+        <input type="radio" name="sexo" value="elle">No Binario
+        </div>
     </li>
-    <li><label>Comentarios: </label><br><textarea type="text" cols="50" rows="10" name="comments"></textarea></li>
-    <li><label>Acepta la política de tratamiento de datos</label>
+    <li><label>Comentarios: </label><br><textarea type="text" name="comments"></textarea></li>
+    <li>
+        <div class="boxDatos">
         <input type="checkbox" name="datos" value="si">
+        <label>Acepta la política de tratamiento de datos</label>
+        </div>
     </li><br>
+    <li>
     <input type="submit" value="Enviar">
+    </li>
        </ul> 
     </form>
 </section>
 <aside class="mapa">
     <h1>Nuestras tiendas</h1>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d194420.54138893916!2d-3.8082657922298386!3d40.412816940278496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srituals%20cosmetic!5e0!3m2!1ses-419!2ses!4v1637715447005!5m2!1ses-419!2ses" allowfullscreen="" loading="lazy"></iframe>
+       <div class="contenedorMapa">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d154267.30714750604!2d-3.855270132546046!3d40.414941808762286!3m2!1i1024!2i768!4f13.1!2m1!1srituals%20cosmetic!5e0!3m2!1ses-419!2ses!4v1638206436319!5m2!1ses-419!2ses" width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
+     </div>
 </aside>
     </div>
 
