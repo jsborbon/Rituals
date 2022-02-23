@@ -8,7 +8,7 @@
     <link href="https://www.rituals.com/on/demandware.static/Sites-IBE-Site/-/default/dw48c20db6/images/favicon.ico" rel="shortcut icon">
     <meta name="description" content="Descubre Rituals. Cosmética Cuerpo y Hogar diseñados para ayudarte a relajarte en casa.">
     <script src="https://kit.fontawesome.com/51642f1d36.js" crossorigin="anonymous"></script>
-    <link href="estilos.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
 </head>
 <body>
   <?php
