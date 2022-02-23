@@ -1,0 +1,828 @@
+*{
+    font-size: 1rem;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    background-color: #f6f4f2;
+}
+
+a{
+    text-decoration: none;
+    color: #5b5959;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Header*/
+header{
+    height: 15rem;
+}
+header img{
+    width: 100%;
+    height: 15rem;
+}
+
+/*Nav*/
+nav{
+    padding-left: 12%;
+    padding-bottom: 0.4rem;
+    background:rgba(26,25,25,.96);
+}
+
+nav div{
+    display: inline-block;
+    color:#a4a4a4;
+    font-family: ScalaSansOT,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    margin-right: 2rem;
+}
+
+nav a{
+    color:#a4a4a4;
+}
+
+nav h1{
+    font-size: 1.05rem;
+}
+
+nav div:hover{
+    border-bottom: 0.05rem solid #a4a4a4;
+
+}
+nav span>i{
+    font-size:1.8rem;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #c5c5c5;
+}
+
+/*Slides*/
+.slider {
+    height: 26rem;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slides img{
+    width: 100%;
+    height: 100%;
+}
+
+.slideMedia{
+    width:100rem;
+    height:27rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#slide1{
+    background-image: url("imgs/Slider/backgroundVideo1.png");
+}
+
+#slide2{
+    background-image: url("imgs/Slider/backgroundVideo2.png");
+}
+
+#slide3{
+    background-image: url("imgs/Slider/backgroundVideo3.png");
+}
+#slide4{
+    background-image: url("imgs/Slider/backgroundImage4.png");
+}
+
+.textSlider{
+    position: absolute;
+    float: left;
+    color: white;
+    top: 15%;
+    left: 8%;
+    letter-spacing: 0.02rem;
+    line-height: 2rem;
+    width: 28%;
+}
+.textSlider h1{
+    font-size: 2rem;
+}
+.textSlider img{
+    width: 30%;
+}
+
+.textSlider button{
+    background-color: #1a1919;
+    border: 0.05rem solid #1a1919;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.textSlider button:hover{
+    background-color: #fffefe00;
+}
+
+.videoFrame{
+    float: right;
+    width: 53rem;
+    height: 26rem;
+    padding-right:2rem;
+}
+#slide3 .textSlider{
+    top: 5%;
+    line-height: 1.7rem;
+}
+
+#slide4 .textSlider{
+    width: auto;
+}
+#slide4 .textSlider h1{
+    font-size: 2rem;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+    background: rgb(69, 63, 63);
+    transform: scale(1);
+}
+
+.nextIcon span{
+    position: absolute;
+    font-size: 3rem;
+    top:45%;
+    right: 1rem;
+}
+
+.beforeIcon span{
+    position: absolute;
+    font-size: 3rem;
+    top:45%;
+    left: 1rem;
+}
+
+.slider__nav {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    width: 20rem;
+}
+
+.slider__nav span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color: rgba(26,25,25,.96);
+    margin: 0 10px 0 10px;
+}
+.partesLevantes{
+    overflow: hidden;
+    padding-left: 4rem;
+}
+.partesLevantes a{
+    color: black;
+}
+.partesLevantes article{
+    width: 40%;
+    height: 32rem;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px;
+    border-radius: 1rem;
+    background: white;
+    float: left;
+    overflow: hidden;
+}
+.partesLevantes h1{
+    font-size: 2rem;
+    color: #7f7f7f;
+    text-transform: uppercase;
+}
+.partesLevantes img{
+    width: 90%;
+}
+/*Colecciones*/
+
+.bannersDeColecciones{
+    margin:0.5rem;
+    margin-top:1rem;
+}
+.bannerColecciones{
+    border:0.02rem solid ;
+    border-radius:0.5rem;
+    padding:0.5rem;
+    margin-bottom:1rem;
+    height: 15rem;
+    overflow:hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.listaColecciones{
+    margin-top: 10%;
+    width:80%;
+    float:left;
+}
+.listaColecciones li {
+    display: inline-block;
+    width: 12rem;
+    margin-right: 3rem;
+    font-family: "Arial Narrow";
+    margin-bottom: 0.5rem;
+}
+.listaColecciones a{
+    color: white;
+}
+#premiumCollection {
+    background-image: url("https://en-sa.rituals.com/media/catalog/category/Oudh_Collection_Desktop_Banner_1440x480_1.jpg");
+
+}
+#classicCollection {
+    background-image: url("https://www.rituals.com/dw/image/v2/BBKL_PRD/on/demandware.static/-/Library-Sites-RitualsSharedContent/default/dwbf3e8fc4/Magazine/2021/September/HomeClassicCollectionRelaunch-banner.jpg?sw=1440&sh=445&sm=fit&cx=0&cy=0&cw=1440&ch=445&sfrm=jpg");
+}
+#moreCollection {
+    background-image: url("https://en-sa.rituals.com/media/catalog/category/Namaste_Namaste_collection_BannerM_L_1440x480.jpg");
+    color: black;
+}
+
+.collection *{
+    color:#453f3f;
+    text-align: center;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.discoveringTheCollection p{
+    background-color: #fff;
+    letter-spacing: 0.025rem;
+    line-height: 3rem;
+    padding:5rem;
+}
+.ingredientesDescripcion {
+    padding: 0.5rem;
+
+}
+.ingredientesDescripcion h2 {
+    color: black;
+    line-height: 3rem;
+}
+.ingredientesDescripcion p{
+
+    letter-spacing: 0.025rem;
+    line-height: 4rem;
+}
+.ingredientesDescripcionCadaUno{
+    overflow: hidden;
+}
+
+.ingredientesDescripcionCadaUno img{
+    width: 100%;
+    margin-bottom: -3rem;
+}
+
+.bannerProductos{
+    width: 89%;
+}
+.discoveringProducts{
+    background-color: #fff;
+    letter-spacing: 0.025rem;
+    line-height: 0rem;
+    padding: 0.5rem;
+}
+.theProducts div{
+    float: left;
+    background-color: #fff;
+    width: 24rem;
+    height: 30rem;
+    margin: 2%;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.theProducts div h2{
+    margin-top: 2%;
+}
+
+.theProducts div p {
+    font-size: 0.8rem;
+    margin-top: -0.8rem;
+}
+.theProducts div p+.size{
+    font-weight: bold;
+    color: #7f7f7f;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.theProducts div p+.price{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.theProducts div:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #1a1919;
+}
+
+.theProducts img{
+    width: 71%;
+}
+#ingredientesSerenity{
+    background: #1c0826;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: hidden;
+}
+#ingredientesSerenity img{
+    width: 100%;
+}
+.imagenIngredientesSerendipity{
+    float: left;
+    width: 50%;
+}
+
+#ingredientesSerenity th, #ingredientesSerenity td, #ingredientesSerenity h2{
+    color:white;
+}
+#eucalipto{
+    float: left;
+    width: 40%;
+    margin-left:3%;
+}
+#romero{
+    background-color: #fff;
+    float: right;
+    width:50%;
+    padding-right:4%;
+}
+.detailsProduct{
+    overflow: hidden;
+}
+.detailsProduct h1{
+    font-size: 5rem;
+}
+.detailsProduct section{
+
+    float: left;
+}
+.imgProduct{
+    width: 50%;
+}
+.imgProduct img{
+    width: 100%;
+}
+.descriptionProduct{
+    width: 45%;
+}
+
+/*Contacto*/
+iframe{
+    border: 0;
+}
+
+.mapa{
+    float: right;
+    margin-right: 10%;
+}
+.contenedorMapa{
+    width: 35rem;
+    height: 23rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.inputsText{
+    width: 23rem;
+    text-align: right;
+}
+.inputsText label{
+    padding-top:0.1rem;
+    float:left;
+}
+
+.inputsText input{
+    width: 18rem;
+    text-align:right;
+}
+
+.content h1{
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.contactUs{
+    float: left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+.contactUs li{
+    padding-bottom: 2%;
+}
+
+.contactUs textarea{
+    width: 50%;
+    height: 5rem;
+}
+
+/*Login*/
+.loginForm{
+overflow: hidden;
+padding: 2rem;
+}
+.login section{
+    width: 45%;
+    float: left;
+}
+#welcomeImg{
+    width: 100%;
+}
+/*footer*/
+.footer-background{
+    clear: both;
+    background:rgba(26,25,25,.96);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer1{
+    color:#a4a4a4;
+    overflow: hidden;
+    font-family: ScalaSansOT,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+
+.footer1 a{
+    color:#a4a4a4;
+}
+
+.footer1 h1{
+    color: white;
+}
+
+.columna{
+    float: left;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.contactenos{
+    clear: both;
+    font-family: Arial;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+
+.contactenos a{
+    color:#a4a4a4;
+}
+
+.iconos span{
+    font-size: 200%;
+}
+
+.iconos li{
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 5%;
+}
+
+.footer2{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: #767676;
+}
+
+.Pay_Methods{
+    padding-left: 15%;
+    clear: both;
+}
+
+.footer2 img{
+    display: inline-block;
+}
+
+.footer2 div{
+    display: inline-block;
+}
+
+.footer2 li{
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.contactenos{
+    float: left;
+}
+
+.logoRituals{
+    float: right;
+    text-align: center;
+}
+
+#letters{
+    width: 13rem;
+}
+
+#LogoRituals {
+    width: 40%;
+}
+
+#LogoVisa {
+    width: 18%;
+}
+
+#LogoMastercard {
+    width: 12%;
+}
+
+#LogoAmerican {
+    width: 7%;
+}
+
+#LogoPayPal{
+    width: 7%;
+}
+
+#LogoGiftCard{
+    width: 11%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    nav {
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+    nav div{
+        display: block;
+        text-align: center;
+    }
+    nav div:hover{
+        border: 0;
+    }
+    /*colecciones*/
+    .theProducts div{
+        width: 27.3%;
+        margin: 2%;
+        padding: 1%;
+        padding-bottom: 1rem;
+    }
+
+    .theProducts div p {
+        text-align: justify;
+    }
+    .imagenIngredientesSerendipity{
+        display: none;
+    }
+    #ingredientesSerenity {
+        background-image: url("https://rituals.scene7.com/is/image/rituals/SocialTextures_Q4_Serendipity_ThreePhaseShowerOil_TextureImage_0659:Square?wid=1013&hei=1013");
+    }
+    #ingredientesSerenity th, #ingredientesSerenity td, #ingredientesSerenity h2{
+        color:black;
+    }
+
+    /* contactenos*/
+    .contactUs textarea{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 585px){
+    #slide1 .textSlider{
+        top:4%;
+    }
+    .videoFrame{
+        width: 49rem;
+    }
+    .partesLevantes article{
+        width: 30%;
+        height: 25rem;
+    }
+    .partesLevantes h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 584px) {
+
+    /*colecciones*/
+    .theProducts div{
+        width: 27%;
+        height: 23rem;
+        padding: 2% 1.2% 1% 1%;
+    }
+    .theProducts img{
+        width: 100%;
+    }
+    .theProducts div p{
+        display: none;
+    }
+    .theProducts div p+.size{
+        display: block;
+    }
+    .theProducts div p+.price{
+        display: block;
+    }
+    .partesLevantes{
+        padding-left: 2rem;
+        margin-right: 2rem;
+    }
+    .partesLevantes article{
+        width: 80%;
+        height: 30%;
+        border-radius: 2rem;
+    }
+    .partesLevantes h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .login{
+        text-align: center;
+    }
+    .login section{
+        width: 80%;
+        clear:both;
+    }
+}
+@media screen and (max-width: 425px) {
+    /*nav*/
+    #letters{
+        width:8rem;
+    }
+
+    /*slider*/
+
+    .slider {
+        height: 14.5rem;
+        margin: 0.0rem;
+        border-radius: 0rem;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slides img{
+        height:0px;
+        visibility:hidden;
+    }
+
+    .slideMedia{
+        height:15rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .textSlider{
+        position: absolute;
+        float: left;
+        color: white;
+        top: -5%;
+        line-height: 1.5rem;
+        width: 90%;
+    }
+    .textSlider h1{
+        font-size: 1rem;
+    }
+    .textSlider p{
+        font-size: 0.7rem;
+    }
+    .textSlider img{
+        width: 30%;
+    }
+
+    #slide3 .textSlider{
+        top: -11%;
+        line-height: 1.5rem;
+    }
+    #slide3 button{
+        margin-top: 0%;
+    }
+    #slide2 button{
+        margin-top: 15%;
+    }
+    .textSlider button{
+        font-size: 0.7rem;
+        letter-spacing: 0.05rem;
+        margin-top: 10%;
+        padding: 1rem 1rem;
+    }
+
+    .videoFrame {
+        float: none;
+        width: 27rem;
+        height: 98%;
+        padding-right: 0px;
+    }
+
+    #slide4 .textSlider{
+        width: auto;
+    }
+    #slide4 .textSlider h1{
+        font-size: 1rem;
+    }
+
+    .nextIcon span{
+        font-size: 1rem;
+    }
+
+    .beforeIcon span{
+        font-size: 1rem;
+    }
+    .slider__nav{
+        left:25%;
+    }
+    /*Colecciones*/
+    .bannerColecciones{
+        height: 15rem;
+    }
+    .listaColecciones{
+        margin-left: 30%;
+    }
+    .listaColecciones li{
+        margin-bottom: 0rem;
+    }
+    .ingredientesDescripcionCadaUno div{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .ingredientesDescripcionCadaUno p{
+
+        padding-left: 3%;
+        padding-right: 4%;
+    }
+    .discoveringProducts h1 {
+        font-size: large;
+        font-weight: bolder;
+    }
+    .theProducts div h2{
+        font-size: 70%;
+    }
+    .theProducts div{
+        height: 17rem;
+    }
+
+    #ingredientesSerenity th, #ingredientesSerenity td, #ingredientesSerenity h2{
+        color:white;
+    }
+
+    /*footer*/
+    .contactUs{
+        width:70%;
+    }
+
+    .contactUs li{
+        padding-top:0.5rem;
+    }
+    .inputsText {
+        width: 1%;
+        text-align: right;
+    }
+    .inputsText input{
+        width: 10rem;
+    }
+    .mapa{
+        width:80%;
+    }
+    .contenedorMapa{
+        width:18rem;
+        margin-left: -1rem;
+        margin-bottom:1rem;
+    }
+    .footer2{
+        text-align:center;
+    }
+    .copyright{
+        width:9rem;
+    }
+    .Pay_Methods{
+        padding-left:0.5rem;
+    }
+    .footer2 ul{
+        position:absolute;
+        left:15%;
+        width:65%;
+    }
+
+}
