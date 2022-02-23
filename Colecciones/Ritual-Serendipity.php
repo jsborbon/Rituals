@@ -7,7 +7,7 @@
     <title>Rituals | Serendipity</title>
     <link href="https://www.rituals.com/on/demandware.static/Sites-IBE-Site/-/default/dw48c20db6/images/favicon.ico" rel="shortcut icon">
     <meta name="description" content="Descubre Rituals. Cosmética Cuerpo y Hogar diseñados para ayudarte a relajarte en casa. ✓Tienda web oficial ✓Envíos gratis a partir de 30 € ✓Tu compra tiene regalo">
-    <link href="../estilos.css" rel="stylesheet">
+    <link href="../css/estilos.css" rel="stylesheet">
 
 </head>
 <body>
